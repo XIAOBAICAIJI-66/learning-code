@@ -1,6 +1,6 @@
-package com.xf.service.strategy;
+package com.xf.strategy.service;
 
-import com.xf.service.strategy.payStrategy.PayStrategy;
+import com.xf.strategy.service.payStrategy.PayStrategy;
 import org.springframework.stereotype.Service;
 
 /**

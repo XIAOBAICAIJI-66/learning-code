@@ -1,8 +1,8 @@
-package com.xf.controller;
+package com.xf.strategy.controller;
 
 import cn.hutool.extra.spring.SpringUtil;
-import com.xf.service.strategy.PayService;
-import com.xf.service.strategy.payStrategy.PayStrategy;
+import com.xf.strategy.service.PayService;
+import com.xf.strategy.service.payStrategy.PayStrategy;
 import jakarta.annotation.Resource;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;

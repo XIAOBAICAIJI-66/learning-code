@@ -1,4 +1,4 @@
-package com.xf.service.strategy.payStrategy;
+package com.xf.strategy.service.payStrategy;
 
 /**
  * 支付策略接口
