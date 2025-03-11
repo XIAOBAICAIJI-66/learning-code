@@ -1,0 +1,9 @@
+#基础的springboot项目配置
+server:
+  port: 9001 # 指定应用启动时监听的端口号，默认为8080
+  servlet:
+    context-path: /designMode # 配置应用的基础路径，默认为空
+
+spring:
+  application:
+    name: designMode # 应用名称
