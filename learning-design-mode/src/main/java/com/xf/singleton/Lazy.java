@@ -12,7 +12,8 @@ public class Lazy {
     private static Lazy lazy;
 
     // 获取实例
-    public static Lazy getInstance() {
+    //这个方法需要注意线程安全问题
+    public static synchronized Lazy getInstance() {
         // 如果实例为空则创建,否则直接返回已有的实例
         if (lazy == null) {
             lazy = new Lazy();
