@@ -59,5 +59,12 @@ public class SingletonTest {
         LazyFour lazyFour = LazyFour.getInstance();
         LazyFour lazyFour1 = LazyFour.getInstance();
         System.out.println(lazyFour == lazyFour1);
+
+        /*
+          枚举单例模式中实例由枚举类创建，线程安全,并且是唯一一个不会被反射和序列化破坏单例
+         */
+        SingletonEnum singletonEnum = SingletonEnum.INSTANCE;
+        SingletonEnum singletonEnum1 = SingletonEnum.INSTANCE;
+        System.out.println(singletonEnum == singletonEnum1);
     }
 }
