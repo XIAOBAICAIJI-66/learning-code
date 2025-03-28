@@ -20,6 +20,7 @@
 
     <modules>
         <module>learning-design-mode</module>
+        <module>java-se</module>
     </modules>
 
     <dependencies>
